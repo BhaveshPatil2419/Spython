@@ -1,0 +1,59 @@
+{
+  "status": "success",
+  "code": 200,
+  "message": "Data retrieved successfully",
+  "data": {
+    "user": {
+      "id": "USR1001",
+      "name": "Rahul Sharma",
+      "email": "rahul@example.com",
+      "phone": "+91-9876543210",
+      "active": true
+    },
+    "orders": [
+      {
+        "order_id": "ORD1001",
+        "product": {
+          "product_id": "P1001",
+          "name": "Wireless Mouse",
+          "category": "Electronics",
+          "price": 799,
+          "quantity": 2
+        },
+        "status": "Delivered",
+        "payment": {
+          "method": "UPI",
+          "amount": 1598,
+          "paid": true
+        }
+      },
+      {
+        "order_id": "ORD1002",
+        "product": {
+          "product_id": "P1002",
+          "name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "price": 2499,
+          "quantity": 1
+        },
+        "status": "Shipped",
+        "payment": {
+          "method": "Credit Card",
+          "amount": 2499,
+          "paid": true
+        }
+      }
+    ],
+    "address": {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "422001"
+    }
+  },
+  "meta": {
+    "request_id": "REQ-784512",
+    "timestamp": "2026-09-15T12:30:45Z",
+    "response_time_ms": 42
+  }
+}
